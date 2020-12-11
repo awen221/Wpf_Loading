@@ -7,8 +7,6 @@ namespace Wpf_Loading
         public LoadingPanel()
         {
             InitializeComponent();
-
-            Visable = false;
         }
 
         public bool Visable

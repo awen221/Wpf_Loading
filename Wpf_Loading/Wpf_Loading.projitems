@@ -9,6 +9,7 @@
     <Import_RootNamespace>Wpf_Loading</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)BackgroundWorkerShowBusy.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)CircularProgressBar.xaml.cs">
       <DependentUpon>CircularProgressBar.xaml</DependentUpon>
     </Compile>
